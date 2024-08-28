@@ -25,7 +25,7 @@ export default function Page() {
           <div className="mx-10 mb-5">
             <h1 className="text-2xl">Sign in to your account</h1>
             <div className=" flex gap-1">
-              Don't have an account?
+              Don&apos;t have an account?
               <Link href="/signup" className="text-primary">
                 Get started
               </Link>
