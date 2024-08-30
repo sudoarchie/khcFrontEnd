@@ -32,7 +32,7 @@ export function Sidebar() {
             Dashboard
           </div>
         </Link>
-        <Link href="/admin/students">
+        <Link href="/admin/dashboard/students">
           <div
             role="button"
             className="flex items-center w-full p-3 leading-tight transition-all rounded-full outline-none text-start hover:bg-secondary/20 hover:bg-opacity-80 hover:text-secondary focus:bg-blue-gray-50 focus:bg-opacity-80 focus:text-blue-gray-900 active:bg-secondary/80 active:bg-opacity-80 active:text-blue-gray-900"
@@ -54,7 +54,7 @@ export function Sidebar() {
             Students
           </div>
         </Link>
-        <Link href="/admin/teachers">
+        <Link href="/admin/dashboard/teachers">
           <div
             role="button"
             className="flex items-center w-full p-3 leading-tight transition-all rounded-full outline-none text-start hover:bg-secondary/20 hover:bg-opacity-80 hover:text-secondary focus:bg-blue-gray-50 focus:bg-opacity-80 focus:text-blue-gray-900 active:bg-secondary/80 active:bg-opacity-80 active:text-blue-gray-900"
@@ -78,7 +78,7 @@ export function Sidebar() {
         </Link>
         <hr></hr>
         <div className="text-sm font-bold">Material</div>
-        <Link href="/admin/worksheetandnotices">
+        <Link href="/admin/dashboard/worksheetandnotices">
           <div
             role="button"
             className="flex items-center w-full p-3 leading-tight transition-all rounded-full outline-none text-start hover:bg-secondary/20 hover:bg-opacity-80 hover:text-secondary focus:bg-blue-gray-50 focus:bg-opacity-80 focus:text-blue-gray-900 active:bg-secondary/80 active:bg-opacity-80 active:text-blue-gray-900"
@@ -100,7 +100,7 @@ export function Sidebar() {
             Worksheets and Notices
           </div>
         </Link>
-        <Link href="/admin/management">
+        <Link href="/admin/dashboard/management">
           <div
             role="button"
             className="flex items-center w-full p-3 leading-tight transition-all rounded-full outline-none text-start hover:bg-secondary/20 hover:bg-opacity-80 hover:text-secondary focus:bg-blue-gray-50 focus:bg-opacity-80 focus:text-blue-gray-900 active:bg-secondary/80 active:bg-opacity-80 active:text-blue-gray-900"
@@ -122,7 +122,7 @@ export function Sidebar() {
             Managment
           </div>
         </Link>
-        <Link href="/admin/countrywisesubject">
+        <Link href="/admin/dashboard/countrywisesubject">
           <div
             role="button"
             className="flex items-center w-full p-3 leading-tight transition-all rounded-full outline-none text-start hover:bg-secondary/20 hover:bg-opacity-80 hover:text-secondary focus:bg-blue-gray-50 focus:bg-opacity-80 focus:text-blue-gray-900 active:bg-secondary/80 active:bg-opacity-80 active:text-blue-gray-900"
@@ -146,7 +146,7 @@ export function Sidebar() {
         </Link>
         <hr></hr>
         <div className="text-sm font-bold">Other</div>
-        <Link href="/admin/contact">
+        <Link href="/admin/dashboard/contact">
           <div
             role="button"
             className="flex items-center w-full p-3 leading-tight transition-all rounded-full outline-none text-start hover:bg-secondary/20 hover:bg-opacity-80 hover:text-secondary focus:bg-blue-gray-50 focus:bg-opacity-80 focus:text-blue-gray-900 active:bg-secondary/80 active:bg-opacity-80 active:text-blue-gray-900"
@@ -168,7 +168,7 @@ export function Sidebar() {
             Contact
           </div>
         </Link>
-        <Link href="/admin/blogs">
+        <Link href="/admin/dashboard/blogs">
           <div
             role="button"
             className="flex items-center w-full p-3 leading-tight transition-all rounded-full outline-none text-start hover:bg-secondary/20 hover:bg-opacity-80 hover:text-secondary focus:bg-blue-gray-50 focus:bg-opacity-80 focus:text-blue-gray-900 active:bg-secondary/80 active:bg-opacity-80 active:text-blue-gray-900"
