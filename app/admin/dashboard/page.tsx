@@ -20,6 +20,7 @@ export default function Page() {
       {dashboardData.map((info, index) => (
         <DashboardCard
           title={info.title}
+          key={index}
           dataNumber={info.data}
         ></DashboardCard>
       ))}
